@@ -1,3 +1,189 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+/* ***** Titles ***** */ 
+
+h1, h2, h3 {
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
 h1 {
-    color: red;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+
+/* ***** Backgrounds of the pages ***** */ 
+
+.home-bg, .prices-bg, .gallery-bg, .contact.bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* **** Home **** */
+
+.home-bg {
+    background-image: url('../images/home.png');
+}
+
+/* **** Prices **** */
+
+.prices-bg {
+    background-image: url('../images/prices.png');
+}
+
+/* **** Gallery **** */
+
+.gallery-bg {
+    background-color: #000000;
+}
+
+/* **** Contact **** */
+
+.contact-bg {
+    background-image: url('../images/contact.png');
+}
+
+.home-main {
+    height: 65vh;
+}
+
+
+/* ***** Prices cards ***** */  
+
+.price-card {
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.9; 
+    -webkit-box-shadow: 0px 5px 20px 0px #FFFFFF;
+    box-shadow: 0px 5px 20px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.price-card:hover {
+    transform: scale(1.1);
+}
+
+.additional-details {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* ***** Gallery ***** */  
+
+.category {
+    padding: 5px 15px 5px 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.9; 
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+.category:hover {
+    transform: scale(1.1);
+}
+
+/* ***** Contact ***** */  
+
+.address-main {
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.9; 
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.address-main:hover {
+    transform: scale(1.1);
+}
+
+.contact-form {
+    background-color: #47555E;
+    color: #FFFFFF;
+    opacity: 0.9; 
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+    position: relative;
+    transition: 0.2s ease-in;
+}
+
+.contact-form:hover {
+    transform: scale(1.1);
+}
+
+.custom-btn {
+    background-color: #000000;
+    opacity: 1;
+    color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 0px #FFFFFF;
+    box-shadow: 0px 5px 10px 0px #FFFFFF;
+}
+
+.custom-btn:hover {
+    background-color: #F4B942;
+}
+
+
+/* ***** Footer ***** */  
+
+.footer {
+    height: 15vh;
+}
+
+/* ***** Links ***** */  
+
+.nav-link:hover, .footer-link:hover, .fa-brands:hover {
+    color: #F4B942!important;
+
+}
+
+/*********************************************************************
+                        Media queries 
+**********************************************************************/
+
+/* mobile phones */ 
+
+@media screen and (min-device-width: 280px) and (max-device-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .home-main {
+        height: 70vh;
+    }
+    .prices-bg, .gallery-bg, .contact-bg {
+        background: #000000;
+    }
+  
 }
