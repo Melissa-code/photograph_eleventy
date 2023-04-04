@@ -1,0 +1,11 @@
+<!-- Section of cards of prices -->
+
+<section class="prices col-12 m-2 d-flex justify-content-center flex-wrap">
+    <div class="prices-grid row d-flex justify-content-center flex-wrap">
+
+        {% for price in collections.prices %}
+            {% include "price-card.njk" %}
+        {% endfor %}
+
+    </div>
+</section>
