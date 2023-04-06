@@ -16,17 +16,10 @@ description: "Tarifs et prestations pratiqués par Charles Cantin photographe"
             </section>
 
             <!-- Cards of prices -->
-            <section class="col-12 m-2 d-flex justify-content-center flex-wrap">
-                <div class="row d-flex justify-content-center flex-wrap">
-
-                    {% for price in collections.prices %}
-                        {% include "price-card.njk" %}
-                    {% endfor %}
-
-                </div>
-            </section>
+            {% for price in collections.prices %}
+                {% include "price-card.njk" %}
+            {% endfor %}
         </main>
     </div>
-
 
 </body>
