@@ -6,132 +6,40 @@ layout: "base.njk"
 
 <body class="gallery-bg">
 
-<!-- Main  -->
+    <!-- Main  -->
 
-<div class="container-fluid gallery-main">
-    <main class="row d-flex justify-content-center">
-        <!-- Title -->
-        <section class="col-12 d-flex justify-content-center my-2">
-            <h1 class="text-center">{{ title }}</h1>
-        </section>
+    <div class="container-fluid gallery-main">
+        <main class="row d-flex justify-content-center">
+            <!-- Title -->
+            <section class="col-12 d-flex justify-content-center my-2">
+                <h1 class="text-center">{{ title }}</h1>
+            </section>
 
-        <!-- Gallery -->
-        <section class="gallery col-12 my-2">
-            <div class="row justify-content-center">
-                <div class="col-md-11">
-                    <!-- Categories -->
-                    {% include "category-grid.njk" %}
+            <!-- Gallery -->
+            <section class="gallery col-12 my-2">
+                <div class="row justify-content-center">
+                    <div class="col-md-11">
+                        <!-- Categories -->
+                        {% include "gallery/categories/category-grid.njk" %}
 
-                    <!-- Wedding -->
-                    <article class="row mb-3" id="wedding-list">
-                        <a href="/images/wedding1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-wedding col-sm-3">
-                            <img src="/images/wedding1.png" alt="photo de mariage 1" class="img-fluid">
-                        </a>
-                        <a href="/images/wedding2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-wedding col-sm-3">
-                            <img src="/images/wedding2.png" alt="photo de mariage 2" class="img-fluid">
-                        </a>
-                        <a href="/images/wedding3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-wedding col-sm-3">
-                            <img src="/images/wedding3.png" alt="photo de mariage 3" class="img-fluid">
-                        </a>
-                        <a href="/images/wedding4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-wedding col-sm-3">
-                            <img src="/images/wedding4.png" alt="photo de mariage 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Pregnant -->
-                    <article class="row mb-3" id="pregnant-list">
-                        <a href="/images/grossesse1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-pregnant col-sm-3">
-                            <img src="/images/grossesse1.png" alt="photo de grossesse 1" class="img-fluid">
-                        </a>
-                        <a href="/images/grossesse2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-pregnant col-sm-3">
-                            <img src="/images/grossesse2.png" alt="photo de grossesse 2" class="img-fluid">
-                        </a>
-                        <a href="/images/grossesse3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-pregnant col-sm-3">
-                            <img src="/images/grossesse3.png" alt="photo de grossesse 3" class="img-fluid">
-                        </a>
-                        <a href="/images/grossesse4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-pregnant col-sm-3">
-                            <img src="/images/grossesse4.png" alt="photo de grossesse 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Baby -->
-                    <article class="row mb-3" id="baby-list">
-                        <a href="/images/bebe1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baby col-sm-3">
-                            <img src="/images/bebe1.png" alt="photo de bebe 1" class="img-fluid">
-                        </a>
-                        <a href="/images/bebe2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baby col-sm-3">
-                            <img src="/images/bebe2.png" alt="photo de bebe 2" class="img-fluid">
-                        </a>
-                        <a href="/images/bebe3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baby col-sm-3">
-                            <img src="/images/bebe3.png" alt="photo de bebe 3" class="img-fluid">
-                        </a>
-                        <a href="/images/bebe4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baby col-sm-3">
-                            <img src="/images/bebe4.png" alt="photo de bebe 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Couple -->
-                    <article class="row mb-3" id="couple-list">
-                        <a href=/images/couple1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-couple col-sm-3">
-                            <img src="/images/couple1.png" alt="photo de couple 1" class="img-fluid">
-                        </a>
-                        <a href="/images/couple2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-couple col-sm-3">
-                            <img src="/images/couple2.png" alt="photo de couple 2" class="img-fluid">
-                        </a>
-                        <a href="/images/couple3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-couple col-sm-3">
-                            <img src="/images/couple3.png" alt="photo de couple 3" class="img-fluid">
-                        </a>
-                        <a href="/images/couple4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-couple col-sm-3">
-                            <img src="/images/couple4.png" alt="photo de couple 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Baptism -->
-                    <article class="row mb-3" id="baptism-list">
-                        <a href="/images/bapteme1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baptism col-sm-3">
-                            <img src="/images/bapteme1.png" alt="photo de bapteme 1" class="img-fluid">
-                        </a>
-                        <a href="/images/bapteme2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baptism col-sm-3">
-                            <img src="/images/bapteme2.png" alt="photo de bapteme 2" class="img-fluid">
-                        </a>
-                        <a href="/images/bapteme3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baptism col-sm-3">
-                            <img src="/images/bapteme3.png" alt="photo de bapteme 3" class="img-fluid">
-                        </a>
-                        <a href="/images/bapteme4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-baptism col-sm-3">
-                            <img src="/images/bapteme4.png" alt="photo de bapteme 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Family -->
-                    <article class="row mb-3" id="family-list">
-                        <a href="/images/famille1.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-family col-sm-3">
-                            <img src="/images/famille1.png" alt="photo de famille 1" class="img-fluid">
-                        </a>
-                        <a href="/images/famille2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-family col-sm-3">
-                            <img src="/images/famille2.png" alt="photo de famille 2" class="img-fluid">
-                        </a>
-                        <a href="/images/famille3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-family col-sm-3">
-                            <img src="/images/famille3.png" alt="photo de famille 3" class="img-fluid">
-                        </a>
-                        <a href="/images/famille4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-family col-sm-3">
-                            <img src="/images/famille4.png" alt="photo de famille 4" class="img-fluid">
-                        </a>
-                    </article>
-                    <!-- Portrait -->
-                    <article class=" row mb-3" id="portrait-list">
-                        <a href="/images/portrait1.png"  data-toggle="lightbox" data-gallery="img-gallery" class="img-portrait col-sm-3">
-                            <img src="/images/portrait1.png" alt="photo de portrait 1" class="img-fluid">
-                        </a>
-                        <a href="/images/portrait2.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-portrait col-sm-3">
-                            <img src="/images/portrait2.png" alt="photo de portrait 2" class="img-fluid">
-                        </a>
-                        <a href="/images/portrait3.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-portrait col-sm-3">
-                            <img src="/images/portrait3.png" alt="photo de portrait 3" class="img-fluid">
-                        </a>
-                        <a href="/images/portrait4.png" data-toggle="lightbox" data-gallery="img-gallery" class="img-portrait col-sm-3">
-                            <img src="/images/portrait4.png" alt="photo de portrait 4" class="img-fluid">
-                        </a>
-                    </article>
+                        <!-- Wedding -->
+                        {% include "gallery/weddings/wedding-grid.njk" %}
+                        <!-- Pregnant -->
+                        {% include "gallery/pregnants/pregnant-grid.njk" %}
+                        <!-- Baby -->
+                        {% include "gallery/babies/baby-grid.njk" %}
+                        <!-- Couple -->
+                        {% include "gallery/couples/couple-grid.njk" %}
+                        <!-- Baptism -->
+                        {% include "gallery/baptisms/baptism-grid.njk" %}
+                        <!-- Family -->
+                        {% include "gallery/families/family-grid.njk" %}
+                        <!-- Portrait -->
+                        {% include "gallery/portraits/portrait-grid.njk" %}
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-</div>
-
+            </section>
+        </main>
+    </div>
 
 </body>

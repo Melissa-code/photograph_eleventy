@@ -1,4 +1,4 @@
 {
-    "layout": "category-btn.njk",
-    "tags": "categories"
-  }
+  "layout": "gallery/categories/category-btn.njk",
+  "tags": "categories"
+}
