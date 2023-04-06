@@ -93,7 +93,7 @@ h3 {
 
 /* ***** Gallery ***** */  
 
-.category {
+.categories__item {
     padding: 5px 15px 5px 15px;
     background-color: #000000;
     color: #FFFFFF;
@@ -104,7 +104,7 @@ h3 {
     position: relative;
     transition: 0.2s ease-in;
 }
-.category:hover {
+.categories__item:hover {
     transform: scale(1.1);
 }
 
