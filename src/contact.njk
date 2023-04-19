@@ -41,26 +41,26 @@ layout: "base.njk"
                     <!-- Contact form -->
                     <article class="col-md-5 contact-form rounded p-4 m-4">
                         <h2 class="p-3">Formulaire de contact</h2>
-                        <form action="https://formspree.io/f/xoqzkwdy" method="post" class="p-3">
+                        <form class="form p-3" name="contact" action="/success" method="POST"  data-netlify="true">
                                 <!-- Lastname -->
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="lastname" name="lastname">Nom :</span>
-                                <input type="text" class="form-control" aria-label="lastname" aria-describedby="lastname">
+                                <input type="text" class="form-control" aria-label="lastname" aria-describedby="lastname" required="true">
                             </div>
                             <!-- Firstname -->
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="firstname" name="firstname">Prénom :</span>
-                                <input type="text" class="form-control" aria-label="firstname" aria-describedby="firstname">
+                                <input type="text" class="form-control" aria-label="firstname" aria-describedby="firstname" required="true">
                             </div>
                             <!-- Email -->
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="email" name="email">Email :</span>
-                                <input type="email" class="form-control"  aria-label="email" aria-describedby="email">
+                                <input type="email" class="form-control"  aria-label="email" aria-describedby="email" required="true">
                             </div>
                             <!-- Message -->
                             <div class="input-group">
                                 <span class="input-group-text" id="message" name="message">Message :</span>
-                                <textarea class="form-control" aria-label="message"></textarea>
+                                <textarea class="form-control" aria-label="message" required="true"></textarea>
                             </div>
                             <!-- Button -->
                             <button class="btn custom-btn mt-3 w-100" type="submit">Envoyer</button>
