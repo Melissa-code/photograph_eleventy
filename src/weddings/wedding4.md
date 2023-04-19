@@ -2,5 +2,5 @@
 legend: "Mariage 4"
 image: "/images/wedding4.png"
 imageAlt: "photo de mariage 4"
-category: "img-wedding"
+imageCategory: "img-wedding"
 ---

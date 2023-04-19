@@ -32,7 +32,6 @@ function showCategory(elements, elementsList, othersElements) {
         // Display all the photos of a category 
         elementsList.insertBefore(elements[i], elementsList.firstElementChild); 
         elements[i].style.display = "inline-block"; 
-      
 
         // Not display the photos of the others categories 
         for(let i = 0; i < othersElements.length; i++) {
