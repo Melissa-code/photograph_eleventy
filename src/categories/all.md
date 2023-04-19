@@ -1,3 +1,4 @@
 ---
 title: "Toutes"
+id: "all"
 ---

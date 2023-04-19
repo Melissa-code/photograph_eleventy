@@ -31,7 +31,6 @@ h3 {
     font-size: 1em;
 }
 
-
 /* ***** Backgrounds of the pages ***** */ 
 
 .home-bg, .prices-bg, .gallery-bg, .contact.bg {
@@ -169,6 +168,7 @@ h3 {
     color: #F4B942!important;
 
 }
+
 
 /*********************************************************************
                         Media queries 

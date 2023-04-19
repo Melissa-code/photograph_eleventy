@@ -1,3 +1,4 @@
 ---
 title: "Mariage"
+id: "wedding"
 ---

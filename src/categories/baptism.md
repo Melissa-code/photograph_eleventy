@@ -1,3 +1,4 @@
 ---
 title: "Baptême"
+id: "baptism"
 ---
