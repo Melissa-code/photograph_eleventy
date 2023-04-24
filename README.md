@@ -10,6 +10,9 @@ Portfolio de Charles Cantin passionné par la photographie sous la forme d'un si
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Run](#run)
+5. [Administration](#administration)
+6. [Deploying](#deploying)
+6. [Contact-form](#contact-form)
 
 ***
 
@@ -88,9 +91,40 @@ Open a web browser and go to http://localhost:8080.
 
 To stop the development server whenever you need to, use 
 ```
-ctrl/cmd + c
+ctrl/c
 ```
 or 
 ```
-ctrl/c
+ctrl/cmd + c
 ```
+
+
+## Administration
+***
+- Create an account on Siteleaf [Siteleaf](https://www.siteleaf.com/).
+- Sign up with GitHub.
+- Fill in the gaps Title* and Domain* (this is the subdomain before siteleaf.net)
+- And connect existing repo : choose public repo then choose photograph_eleventy 
+- Choose the developer free plan. 
+- On the admin panel, you can change now the categories, the images and the prices and you can create or delete them too. 
+
+
+## Deploying
+***
+- Create an account on Netlify [Netlify](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/).
+- Click on the button Add new site and select Import an existing project.
+- Connect to Git provider : Github.
+- Search a repo. If you can't see your reposotory, click on Configure the Netlify app on GitHub.
+- When you are on the site settings, make sure the build command is either npm run build or eleventy
+- And under "Publish directory", replace _site by public.
+- Click on the Deploy site.
+- In a few moments Netlify will tell you that your site is live and give you a URL for it.
+- You can rename the name of the site, click on the buttons Site settings then Change site name and Save. 
+
+
+## Contact-form
+***
+- Click on "Forms" in the Netlify interface, you'll be brought to the Netlify Forms dashboard.
+- The form will have whatever name you used in the name attribute on your contact form, in this case "contact".
+- In the Active forms section, click on contact and you can see the list of the emails sent.
+- If you click on one, you see the details : name, firstname, email and message. 
