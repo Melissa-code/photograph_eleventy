@@ -1,0 +1,74 @@
+---
+title: "Contact"
+description: "Formulaire de contact pour prendre rendez-vous avec Charles Cantin obtenir des informations complémentaires."
+layout: "base.njk"
+---
+
+<body class="contact-bg">
+
+    <!-- Main  -->
+
+    <div class="container">
+        <main class="row">
+            <!-- Title -->
+            <section class="my-md-2">
+                <h1 class="text-center">Contact</h1>
+            </section>
+
+            <!-- Contact -->
+            <section class="col-12 my-md-2">
+                <div class="row d-flex justify-content-center my-md-2 mx-1">
+                    <!-- Address details -->
+                    <article class="col-md-5 address-main rounded p-4 m-4">
+                        <h2 class="p-3">Studio <br/> Charles Cantin Photographe</h2>
+                        <ul class="p-3 list-unstyled mt-3">
+                            <li>10 rue Réaumur</li>
+                            <li>Bâtiment A - 6e étage droite</li>
+                            <li>75003 Paris</li>
+                            <li class="mt-4">
+                                <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #ffffff;"></i>
+                                <span>06.44.34.65.78</span> 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                <span>cantinphotographe@gmail.com</span> 
+                            </li>
+                            <li class="mt-5">
+                                <button type="button" class="btn custom-btn w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Voir sur la carte</button>
+                            </li>
+                        </ul>
+                    </article>
+                    <!-- Contact form -->
+                    <article class="col-md-5 contact-form rounded p-4 m-4">
+                        <h2 class="p-3">Formulaire de contact</h2>
+                        <form class="form p-3" name="contact" action="/success" method="POST"  data-netlify="true">
+                                <!-- Lastname -->
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="lastname" name="lastname">Nom :</span>
+                                <input type="text" class="form-control" aria-label="lastname" aria-describedby="lastname" required="true">
+                            </div>
+                            <!-- Firstname -->
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="firstname" name="firstname">Prénom :</span>
+                                <input type="text" class="form-control" aria-label="firstname" aria-describedby="firstname" required="true">
+                            </div>
+                            <!-- Email -->
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="email" name="email">Email :</span>
+                                <input type="email" class="form-control"  aria-label="email" aria-describedby="email" required="true">
+                            </div>
+                            <!-- Message -->
+                            <div class="input-group">
+                                <span class="input-group-text" id="message" name="message">Message :</span>
+                                <textarea class="form-control" aria-label="message" required="true"></textarea>
+                            </div>
+                            <!-- Button -->
+                            <button class="btn custom-btn mt-3 w-100" type="submit">Envoyer</button>
+                        </form>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
