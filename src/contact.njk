@@ -38,29 +38,30 @@ layout: "base.njk"
                             </li>
                         </ul>
                     </article>
+
                     <!-- Contact form -->
                     <article class="col-md-5 contact-form rounded p-4 m-4">
                         <h2 class="p-3">Formulaire de contact</h2>
-                        <form class="form p-3" name="contact" action="/success" method="POST"  data-netlify="true">
-                                <!-- Lastname -->
+                        <form class="form p-3" name="contact" action="/success" method="POST" data-netlify="true">
+                            <!-- Lastname -->
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="lastname" name="lastname">Nom :</span>
-                                <input type="text" class="form-control" aria-label="lastname" aria-describedby="lastname" required="true">
+                                <span class="input-group-text">Nom :</span>
+                                <input type="text" class="form-control" id="lastname" name="lastname" aria-label="lastname" aria-describedby="lastname" required="true">
                             </div>
                             <!-- Firstname -->
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="firstname" name="firstname">Prénom :</span>
-                                <input type="text" class="form-control" aria-label="firstname" aria-describedby="firstname" required="true">
+                                <span class="input-group-text">Prénom :</span>
+                                <input type="text" class="form-control" id="firstname" name="firstname" aria-label="firstname" aria-describedby="firstname" required="true">
                             </div>
                             <!-- Email -->
                             <div class="input-group mb-3">
-                                <span class="input-group-text" id="email" name="email">Email :</span>
-                                <input type="email" class="form-control"  aria-label="email" aria-describedby="email" required="true">
+                                <span class="input-group-text">Email :</span>
+                                <input type="email" class="form-control" id="email" name="email" aria-label="email" aria-describedby="email" required="true">
                             </div>
                             <!-- Message -->
                             <div class="input-group">
-                                <span class="input-group-text" id="message" name="message">Message :</span>
-                                <textarea class="form-control" aria-label="message" required="true"></textarea>
+                                <span class="input-group-text">Message :</span>
+                                <textarea class="form-control" id="message" name="message" aria-label="message" required="true"></textarea>
                             </div>
                             <!-- Button -->
                             <button class="btn custom-btn mt-3 w-100" type="submit">Envoyer</button>
