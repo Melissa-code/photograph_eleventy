@@ -6,6 +6,13 @@ layout: "base.njk"
 
 <body class="home-bg">
 
+    <form  name="contact" netlify netlify-honeypot="botfield" hidden>
+        <input type="text" name="lastname">
+        <input type="text" name="firstname">
+        <input type="email" name="email">
+        <textarea name="message"></textarea>
+    </form>
+
     <!-- Main  -->
 
     <div class="container home-main">

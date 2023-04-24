@@ -42,7 +42,8 @@ layout: "base.njk"
                     <!-- Contact form -->
                     <article class="col-md-5 contact-form rounded p-4 m-4">
                         <h2 class="p-3">Formulaire de contact</h2>
-                        <form class="form p-3" name="contact" action="/success" method="POST" data-netlify="true">
+                        <form class="form p-3" name="contact" action="/success" method="POST" data-netlify="true" enctype="multipart/form-data">
+                            <input type="hidden" name="form-name" value="contact" /> 
                             <!-- Lastname -->
                             <div class="input-group mb-3">
                                 <span class="input-group-text">Nom :</span>
