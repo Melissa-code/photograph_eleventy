@@ -149,10 +149,10 @@ function getPhotos() {
     //console.log(currentUrl); 
 
     // server url
-    if(currentUrl === '') {
-        fetch('')
-            //.then(res => console.log(res))
-            //.then(setPhotosInPage())
+    if(currentUrl === 'https://portfolio-charlescantin-photographe.netlify.app/gallery/') {
+        fetch('https://portfolio-charlescantin-photographe.netlify.app/gallery/')
+            .then(res => console.log(res))
+            .then(setPhotosInPage())
     // local server
     } else {
         fetch('http://localhost:8080/gallery/')

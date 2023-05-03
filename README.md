@@ -1,5 +1,4 @@
 # photograph_eleventy
-***
 
 Portfolio de Charles Cantin passionné par la photographie sous la forme d'un site web.
 
@@ -17,14 +16,14 @@ Portfolio de Charles Cantin passionné par la photographie sous la forme d'un si
 ***
 
 ## General Info
-***
+
 4 pages for the website: home, gallery, prices and contact. 
 Charles Cantin must be an administrator to manage the prices and the photos. 
 
 ***
 
 ## Technologies
-***
+
 A list of technologies used within the project:
 * [nodejs](https://nodejs.org/en): Version v18 or higher 
 * [eleventy](https://www.11ty.dev/docs/)
@@ -32,7 +31,7 @@ A list of technologies used within the project:
 ***
 
 ## Prerequisite
-***
+
 Install Node.js
 If you don’t already have Node.js installed, go to [nodejs](https://nodejs.org/en) and follow the instructions for your operating system.
 
@@ -42,8 +41,10 @@ node --version
 ```
 to make sure it’s installed. As long as it’s version 12 or newer, you’re good to go.
 
-## Installation
 ***
+
+## Installation
+
 Clone this project :
 ```
 $ git clone https://github.com/Melissa-code/photograph_eleventy.git
@@ -60,8 +61,10 @@ $ npm init -y
 $ npm install --save-dev @11ty/eleventy
 ```
 
-## Run 
 ***
+
+## Run 
+
 Create a .eleventy.js file in the root of your project and 2 directories src and public in the root of your project.
 Then set them as the input and output directories in .eleventy.js :
 ```
@@ -98,9 +101,10 @@ or
 ctrl/cmd + c
 ```
 
+***
 
 ## Administration
-***
+
 - Create an account on Siteleaf [Siteleaf](https://www.siteleaf.com/).
 - Sign up with GitHub.
 - Fill in the gaps Title* and Domain* (this is the subdomain before siteleaf.net)
@@ -108,22 +112,24 @@ ctrl/cmd + c
 - Choose the developer free plan. 
 - On the admin panel, you can change now the categories, the images and the prices and you can create or delete them too. 
 
+***
 
 ## Deploying
-***
+
 - Create an account on Netlify [Netlify](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/).
 - Click on the button Add new site and select Import an existing project.
 - Connect to Git provider : Github.
 - Search a repo. If you can't see your reposotory, click on Configure the Netlify app on GitHub.
 - When you are on the site settings, make sure the build command is either npm run build or eleventy
 - And under "Publish directory", replace _site by public.
-- Click on the Deploy site.
+- Click on the Deploy site button.
 - In a few moments Netlify will tell you that your site is live and give you a URL for it.
 - You can rename the name of the site, click on the buttons Site settings then Change site name and Save. 
 
+***
 
 ## Contact-form
-***
+
 - Click on "Forms" in the Netlify interface, you'll be brought to the Netlify Forms dashboard.
 - The form will have whatever name you used in the name attribute on your contact form, in this case "contact".
 - In the Active forms section, click on contact and you can see the list of the emails sent.
