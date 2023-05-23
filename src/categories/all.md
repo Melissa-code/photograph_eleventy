@@ -1,4 +1,5 @@
 ---
-title: "Toutes"
-id: "all"
+title: Toutes
+id: all
 ---
+

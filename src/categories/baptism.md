@@ -1,4 +1,5 @@
 ---
-title: "Baptême"
-id: "baptism"
+title: Baptême
+id: baptism
 ---
+

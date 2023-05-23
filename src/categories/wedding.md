@@ -1,4 +1,5 @@
 ---
-title: "Mariage"
-id: "wedding"
+title: Mariage
+id: wedding
 ---
+
