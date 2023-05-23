@@ -151,6 +151,17 @@ h3 {
     background-color: #F4B942;
 }
 
+#exampleModal {
+    background-color: #F4B942;
+}
+
+.modal-content {
+    background-color: #000000;
+}
+
+.modal-title {
+    color: #FFFFFF;
+}
 
 /* ***** Footer ***** */  
 
