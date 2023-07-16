@@ -60,7 +60,7 @@ function showCategory(elements, elementsList, othersElements) {
 /**
  * Display all the photos 
  */
-function showAllPhotos(allElements) {
+function showAllPhotos(allPhotos) {
     for(let i = 0; i < allPhotos.length; i++) {
         //console.log(othersElements[i])
         for(let j = 0; j < allPhotos[i].length; j++) {
