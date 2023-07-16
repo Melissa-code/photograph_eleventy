@@ -1,6 +1,7 @@
 ---
-legend: "Baptême 4"
+legend: Baptême 4
 image: "/images/baptism4.png"
-imageAlt: "photo de baptême 4"
-imageCategory: "img-baptism"
+imageAlt: photo de baptême 4
+imageCategory: img-baptism
 ---
+

@@ -1,6 +1,7 @@
 ---
-legend: "Grossesse 3"
+legend: Grossesse 3
 image: "/images/pregnant3.png"
-imageAlt: "photo de grossesse 3"
-imageCategory: "img-pregnant"
+imageAlt: photo de grossesse 3
+imageCategory: img-pregnant
 ---
+

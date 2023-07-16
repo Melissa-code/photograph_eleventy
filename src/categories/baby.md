@@ -1,4 +1,5 @@
 ---
-title: "Bébé"
-id: "baby"
+title: Bébé
+id: baby
 ---
+
